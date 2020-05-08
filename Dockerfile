@@ -1,6 +1,4 @@
 FROM alpine:3.9
-LABEL maintainer="Marcus Meurs <mail@m4rcu5.nl>" \
-      version="1.0.0"
 
 # Install packages
 RUN apk update && \
